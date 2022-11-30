@@ -1,10 +1,9 @@
-//trigger redeploy
 const config = {
 	backendUrl:
 		process.env.NODE_ENV === 'development'
 			? 'http://localhost:9000/.netlify/functions/app'
+// https://create-react-app.dev/docs/adding-custom-environment-variables
 			:  process.env.REACT_APP_BACKEND_URL,
-//			: 'https://spotify-stats-server.netlify.com/.netlify/functions/app',
 	repoUrl: 'https://github.com/sorxrob/spotify-stats',
 };
 
