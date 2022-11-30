@@ -33,3 +33,7 @@ Your spotify profile's top artists and tracks with charts and playlist creator.
 
 - [ ] Social sharing of result
 - [ ] Fix refresh token issues
+
+## For setting alternative Backend-URL on Production Deployment
+Set the ENV-Variable BACKEND_URL on the provider of your choice to the URL of your Spotify Stats Server
+https://github.com/wobsoriano/spotify-stats-server
